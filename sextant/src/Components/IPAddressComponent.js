@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function IPAddressComponent(props) {
-  const [ipAddress, setIpAddress] = useState();
+  const [ipAddress, setIpAddress] = useState("Loading...");
   const { ipVersion } = props;
 
   useEffect(() => {
